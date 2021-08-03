@@ -21,6 +21,10 @@ function draw() {
   noStroke();
   ambientLight(300);
   directionalLight( 255, 255, 255, 0, 0, 1);
+  rotateX(angle);
+  rotateY(angle * 1.3);
+  rotateZ(angle * 0.7);
+  angle += 0.002
   push();
   rotateZ(theta * mouseX * 0.001);
   rotateX(theta * mouseX * 0.001);
