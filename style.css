@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  cursor: url(cursor.png) 12 12, auto
+  cursor: url(cursor.png) 12 12, auto;
 }
 canvas {
   display: block;
