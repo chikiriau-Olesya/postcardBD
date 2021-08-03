@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+body {
+  background-color: #191C21;
+  background-image: url('back.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+canvas {
+  display: block;
+  margin: 0 auto;
+}
